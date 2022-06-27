@@ -40,8 +40,11 @@ nav:
     - 初期設定: vscode/setup.md
 
 extra:
-    search:
-        language: 'ja'
+  search:
+      language: 'ja'
+  analytics:
+      provider: google
+      property: G-BGCQ05X1GQ
 
 markdown_extensions:
   - admonition
@@ -52,7 +55,3 @@ markdown_extensions:
       noclasses: true
   - toc:
       permalink: true
-
-google_analytics:
-  - 'UA-174149274-6'
-  - 'auto'
