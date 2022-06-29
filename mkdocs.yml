@@ -4,6 +4,7 @@ copyright: 'Copyright © 2022 kota'
 theme:
   name: material
   language: ja
+  custom_dir: overrides
   icon:
     logo: material/school
     repo: fontawesome/brands/git-alt
@@ -41,10 +42,13 @@ nav:
 
 extra:
   search:
-      language: 'ja'
+    language: 'ja'
   analytics:
-      provider: google
-      property: G-BGCQ05X1GQ
+    provider: google
+    property: G-BGCQ05X1GQ
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yashikota/meetup
 
 markdown_extensions:
   - admonition
