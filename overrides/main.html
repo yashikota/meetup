@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<meta property="og:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{{ page.title }}">
+{% if page and page.meta and page.meta.description %}
+<meta property="og:description" content="{{ page.meta.description }}">
+{% endif %}
+{% if page and page.meta and page.meta.image %}
+<meta property="og:image" content="{{ page.meta.image }}">
+<meta name="twitter:image" content="{{ page.meta.image }}">
+{% else %}
+<meta property="og:image" content="https://ogp.yashikota.com/%E5%8B%89%E5%BC%B7%E4%BC%9A%20%E8%B3%87%E6%96%99%E9%9B%86.png?theme=light&md=1&fontSize=225px">
+<meta name="twitter:image" content="https://ogp.yashikota.com/%E5%8B%89%E5%BC%B7%E4%BC%9A%20%E8%B3%87%E6%96%99%E9%9B%86.png?theme=light&md=1&fontSize=225px">
+{% endif %}
+{% if page and page.meta and page.meta.type %}
+<meta property="og:type" content="{{ page.meta.type }}">
+{% else %}
+<meta property="og:type" content="article">
+{% endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:locale" content="ja_JP">
+{% endblock %}
