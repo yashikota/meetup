@@ -10,11 +10,11 @@ theme:
   favicon: assets/favicon.png
   features:
     - navigation.tabs
-    - header.autohide
+    # - header.autohide
     - navigation.instant
     - navigation.sections
     - navigation.expand
-    - navigation.top
+    # - navigation.top
     - toc.integrate
 
 nav:
