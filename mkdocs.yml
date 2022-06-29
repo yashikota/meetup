@@ -20,25 +20,25 @@ theme:
 
 nav:
   - ウェブサイト制作:
-    - シラバス: web/syllabus.md
-    - 第1回: web/01.md
-    - 第2回: web/02.md
-    - 第3回: web/03.md
-    - 第4回: web/04.md
-    - 第5回: web/05.md
-    - 第6回: web/06.md
+    - ウェブサイト制作 - シラバス: web/syllabus.md
+    - ウェブサイト制作 - 第1回: web/01.md
+    - ウェブサイト制作 - 第2回: web/02.md
+    - ウェブサイト制作 - 第3回: web/03.md
+    - ウェブサイト制作 - 第4回: web/04.md
+    - ウェブサイト制作 - 第5回: web/05.md
+    - ウェブサイト制作 - 第6回: web/06.md
 
   - Git:
-    - インストール: git/install.md
-    - 初期設定: git/setup.md
+    - Git - インストール: git/install.md
+    - Git - 初期設定: git/setup.md
 
   - Github:
-    - インストール: github/install.md
-    - 初期設定: github/setup.md
+    - Github - インストール: github/install.md
+    - Github - 初期設定: github/setup.md
 
   - VSCode:
-    - インストール: vscode/install.md
-    - 初期設定: vscode/setup.md
+    - VSCode - インストール: vscode/install.md
+    - VSCode - 初期設定: vscode/setup.md
 
 extra:
   search:
