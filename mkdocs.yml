@@ -4,6 +4,7 @@ copyright: 'Copyright © 2022 kota'
 theme:
   name: material
   language: ja
+  custom_dir: overrides
   icon:
     logo: material/school
     repo: fontawesome/brands/git-alt
@@ -19,32 +20,35 @@ theme:
 
 nav:
   - ウェブサイト制作:
-    - シラバス: web/syllabus.md
-    - 第1回: web/01.md
-    - 第2回: web/02.md
-    - 第3回: web/03.md
-    - 第4回: web/04.md
-    - 第5回: web/05.md
-    - 第6回: web/06.md
+    - ウェブサイト制作 - シラバス: web/syllabus.md
+    - ウェブサイト制作 - 01: web/01.md
+    - ウェブサイト制作 - 02: web/02.md
+    - ウェブサイト制作 - 03: web/03.md
+    - ウェブサイト制作 - 04: web/04.md
+    - ウェブサイト制作 - 05: web/05.md
+    - ウェブサイト制作 - 06: web/06.md
 
   - Git:
-    - インストール: git/install.md
-    - 初期設定: git/setup.md
+    - Git - インストール: git/install.md
+    - Git - 初期設定: git/setup.md
 
   - Github:
-    - インストール: github/install.md
-    - 初期設定: github/setup.md
+    - Github - インストール: github/install.md
+    - Github - 初期設定: github/setup.md
 
   - VSCode:
-    - インストール: vscode/install.md
-    - 初期設定: vscode/setup.md
+    - VSCode - インストール: vscode/install.md
+    - VSCode - 初期設定: vscode/setup.md
 
 extra:
   search:
-      language: 'ja'
+    language: 'ja'
   analytics:
-      provider: google
-      property: G-BGCQ05X1GQ
+    provider: google
+    property: G-BGCQ05X1GQ
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yashikota/meetup
 
 markdown_extensions:
   - admonition
