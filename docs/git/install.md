@@ -64,11 +64,11 @@ git push -u origin main
 ## ブランチの作成
 
 1. 左下を押してブランチ作成画面を開く  
-    <img src="../mini/../../../assets/images/vscode-branch.png" alt="vscode-branch" width="50%"/>  
+    <img src="../mini//assets/images/vscode-branch.png" alt="vscode-branch" width="50%"/>  
 2. 新しい分岐の作成(一番上)を選択  
-    <img src="../mini/../../../assets/images/vscode-branch-dialog.png" alt="vscode-branch-dialog" width="50%"/>  
+    <img src="../mini//assets/images/vscode-branch-dialog.png" alt="vscode-branch-dialog" width="50%"/>  
 3. ブランチ名(ここでは```gh-pages```)を入力し、Enterキーを押す  
-    <img src="../mini/../../../assets/images/vscode-branch-dialog-name.png" alt="vscode-branch-dialog-name" width="50%"/>  
+    <img src="../mini//assets/images/vscode-branch-dialog-name.png" alt="vscode-branch-dialog-name" width="50%"/>  
 4. これでブランチの作成は完了  
 
 ## upstreamに追従する
