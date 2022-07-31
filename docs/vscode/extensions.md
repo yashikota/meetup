@@ -5,6 +5,7 @@ VSCodeの最大の魅力は**豊富な拡張機能**
 
 | リンク | 概要 |
 | ------ | ---- |
+| [Japanese Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-ja) | VSCodeを日本語化する |
 | [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) | アイコンがわかりやすくなる。これ以外にもいろんなテーマがあるのでお好みで |
 | [zenkaku](https://marketplace.visualstudio.com/items?itemName=mosapride.zenkaku) | 全角スペースが可視化される |
 | [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) | ケアレスミスを指摘してくれる |

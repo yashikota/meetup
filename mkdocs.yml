@@ -41,6 +41,7 @@ nav:
     - VSCode - 使い方: vscode/usage.md
     - VSCode - ショートカットキー: vscode/shortcut.md
     - VSCode - 拡張機能: vscode/extensions.md
+    - VSCode - c1-byodを追加する: vscode/c1byod.md
 
 extra:
   search:
